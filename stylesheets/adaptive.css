@@ -1,0 +1,134 @@
+@media (max-width: 767px) {
+	.header {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-template-areas:
+			'item_1 item_3 item_4'
+			'item_2 item_3 item_5';
+	}
+	.item_1 {
+		grid-area: item_1;
+	}
+	.item_2 {
+		grid-area: item_2;
+	}
+	.item_3 {
+		grid-area: item_3;
+	}
+	.item_4 {
+		grid-area: item_4;
+	}
+	.item_5 {
+		grid-area: item_5;
+	}
+
+	.footer {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-template-areas:
+			'item1 item2'
+			'item3 item3';
+	}
+
+	.a_1 {
+		grid-area: item1;
+	}
+	.a_3 {
+		grid-area: item2;
+	}
+	.a_5 {
+		grid-area: item3;
+	}
+
+	.footer_shop_end {
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		grid-template-areas:
+			'item1 item2'
+			'item3 item3';
+	}
+
+	h1 {
+		font-family: Alumni Sans medium;
+		font-size: 5vw;
+		color: #262696;
+	}
+
+	h2 {
+		font-family: Alumni Sans ExtraLight;
+		font-size: 3.75vw;
+		color: #262696;
+	}
+
+	h3 {
+		font-family: Roboto Condensed light;
+		font-size: 2.5vw;
+		color: #262696;
+	}
+
+	h4 {
+		font-family: Alumni Sans ExtraLight;
+		font-size: 2.8vw;
+		color: #262696;
+	}
+
+	p {
+		font-family: Roboto Condensed medium;
+		font-size: 1.25vw;
+		color: #262696;
+	}
+
+	span {
+		font-family: Roboto Condensed medium;
+		font-size: 2.5vw;
+		color: #262696;
+	}
+
+	a {
+		font-size: 2.5vw;
+	}
+
+	.header a {
+		flex: 1;
+		text-align: center;
+		font-size: 4vw;
+		font-family: Alumni Sans ExtraLight;
+		text-decoration: none;
+		color: #262696;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-right: 1px solid #262696;
+		border-bottom: 1px solid #262696;
+		border-left: 1px solid #262696;
+		backdrop-filter: blur(6px);
+	}
+
+	.container_cover_for_3_module {
+		padding-top: 12%;
+	}
+
+	.cover_for_3_module {
+		width: 94%;
+		border: 1px solid #262696;
+	}
+	.accordion {
+		padding-top: 13vw;
+	}
+
+	.questionnaire_p {
+		font-size: 3vw;
+	}
+
+	.affiche_parts {
+		padding-top: 12%;
+	}
+	.cover_for_2_module {
+		width: 94%;
+		border: 1px solid #262696;
+	}
+
+	.container_video_of_clinik {
+		padding-top: 12%;
+	}
+}
